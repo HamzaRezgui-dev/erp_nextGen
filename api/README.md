@@ -52,10 +52,13 @@ Make sure you have the following installed on your machine:
 
     ```bash
     git clone [https://github.com/HamzaRezgui-dev/erp_nextGen](https://github.com/HamzaRezgui-dev/erp_nextGen)
-    cd erp-backend
+    cd api for backend
+    cd client for frontend
     ```
 
 2.  **Install NPM packages**
+
+    After accessing either frontend or backend, run in terminal :
 
     ```bash
     npm install
@@ -86,8 +89,8 @@ Make sure you have the following installed on your machine:
 
 - **Production Mode**
   `bash
-    npm start
-    `
+npm start
+`
   The server will start on the port specified in your `.env` file (e.g., `http://localhost:3000`).
 
 ---
